@@ -1,5 +1,8 @@
 class Solution:
-    def maxSubArraySum(self, arr):
+    def maxSubarraySum(self, arr):
+        if not arr:
+            return 0
+        
         max_current = arr[0]
         max_global = arr[0]
         
